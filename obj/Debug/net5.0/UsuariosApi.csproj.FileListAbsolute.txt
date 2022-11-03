@@ -8,6 +8,7 @@ D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Usuar
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\UsuariosApi.pdb
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\AutoMapper.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Castle.Core.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\FluentResults.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Google.Protobuf.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Humanizer.dll
@@ -21,6 +22,7 @@ D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Micro
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
@@ -31,8 +33,6 @@ D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Micro
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\MimeKit.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\MySql.Data.dll
-D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Ubiety.Dns.Core.dll
-D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Zstandard.Net.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -59,3 +59,4 @@ D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\obj\Debug\net5.0\refin
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\obj\Debug\net5.0\UsuariosApi.pdb
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\obj\Debug\net5.0\UsuariosApi.genruntimeconfig.cache
 D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\obj\Debug\net5.0\ref\UsuariosApi.dll
+D:\Developer\Cursos\Frameworks\.NET\FilmesAPI\UsuariosApi\bin\Debug\net5.0\ZstdNet.dll

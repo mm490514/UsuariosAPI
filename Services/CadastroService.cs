@@ -19,22 +19,29 @@ namespace UsuariosApi.Services
         private IMapper _mapper;
         private UserManager<IdentityUser<int>> _userManager;
         private EmailService _emailService;
+        private RoleManager<IdentityRole<int>> _roleManager;
 
         public CadastroService(IMapper mapper,
-            UserManager<IdentityUser<int>> userManager, 
-            EmailService emailService)
+            UserManager<IdentityUser<int>> userManager,
+            EmailService emailService,
+            RoleManager<IdentityRole<int>> roleManager)
         {
             _mapper = mapper;
             _userManager = userManager;
             _emailService = emailService;
+            _roleManager = roleManager;
         }
 
         public Result CadastraUsuario(CreateUsuarioDto createDto)
         {
             Usuario usuario = _mapper.Map<Usuario>(createDto);
+
             IdentityUser<int> usuarioIdentity = _mapper.Map<IdentityUser<int>>(usuario);
-            Task<IdentityResult> resultadoIdentity = _userManager
-                .CreateAsync(usuarioIdentity, createDto.Password);
+
+            Task<IdentityResult> resultadoIdentity = _userManager.CreateAsync(usuarioIdentity, createDto.Password);
+
+            _userManager.AddToRoleAsync(usuarioIdentity, "regular");
+
             if (resultadoIdentity.Result.Succeeded)
             {
                 var code = _userManager
@@ -46,6 +53,7 @@ namespace UsuariosApi.Services
 
                 return Result.Ok().WithSuccess(code);
             }
+
             return Result.Fail("Falha ao cadastrar usuário");
 
         }
