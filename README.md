@@ -38,4 +38,4 @@ https://localhost:5001/swagger
 
 ## Contribuição
 
-Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma [issue](https://github.com/seu-usuario/UsuariosApi/issues) ou enviar um [pull request](https://github.com/seu-usuario/UsuariosApi/pulls).
+Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma [issue](https://github.com/mm490514/UsuariosApi/issues) ou enviar um [pull request](https://github.com/mm490514/UsuariosApi/pulls).
